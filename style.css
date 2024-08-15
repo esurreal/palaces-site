@@ -44,11 +44,11 @@
 }
 @keyframes blockAnimation {
   from {
-    outline-color: rgb(71, 0, 0);
+    outline-color: rgb(69, 0, 97);
     opacity: 75%;
   }
   to {
-    outline-color: rgb(47, 47, 47);
+    outline-color: rgb(101, 28, 28);
     opacity: 100%;
   }
 }
@@ -200,7 +200,7 @@
 @media all and (max-width: 425px) {
   .grid-main {
     grid-template-columns: repeat(1, 50%);
-    height: 1px;
+    height: 5rem;
     align-items: center;
     justify-content: center;
   }
@@ -219,10 +219,10 @@
   }
   .bandName {
     font-size: 5rem;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 100%;
-    height: auto;
     display: flex;
     margin-bottom: 5rem;
+    margin-top: -20rem;
   }
 }
