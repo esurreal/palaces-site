@@ -13,13 +13,15 @@
   color: black;
   opacity: 0%;
   font-size: 1.8rem;
-  text-shadow: 10px 10px 2px red;
+  text-shadow: 10px 10px 2px gray;
   padding: 4.6rem;
+  text-decoration: none;
 }
 .allText:hover {
   opacity: 100%;
-  color: rgb(26, 12, 99);
+  color: rgb(0, 0, 0);
   transition: 0.5s;
+  text-decoration: none;
 }
 .body-container {
   background-color: rgb(0, 0, 0);
@@ -46,7 +48,7 @@
     opacity: 75%;
   }
   to {
-    outline-color: rgb(67, 67, 67);
+    outline-color: rgb(47, 47, 47);
     opacity: 100%;
   }
 }
@@ -63,7 +65,7 @@
   outline-color: rgb(118, 148, 0);
   opacity: 10%;
   margin-bottom: 50px;
-  animation: blockAnimation 8s ease-in-out infinite alternate-reverse;
+  animation: blockAnimation 3s ease-in-out infinite alternate-reverse;
 }
 .block:hover {
   opacity: 100%;
@@ -76,6 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .one:hover {
   cursor: pointer;
@@ -89,6 +92,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .two:hover {
   cursor: pointer;
@@ -102,6 +106,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .three:hover {
   cursor: pointer;
@@ -115,6 +120,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .four:hover {
   cursor: pointer;
@@ -128,6 +134,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .five:hover {
   cursor: pointer;
@@ -141,6 +148,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .six:hover {
   cursor: pointer;
@@ -154,6 +162,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .seven:hover {
   cursor: pointer;
@@ -167,6 +176,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .eight:hover {
   cursor: pointer;
@@ -180,6 +190,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 .nine:hover {
   cursor: pointer;
